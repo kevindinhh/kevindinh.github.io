@@ -316,7 +316,7 @@ footer h2 {
     border-bottom: 1px solid #111111;
 }
 
-/* Portrait */
+/* iPhone 5, 5S, 5C and 5SE --------------------------------------- */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
@@ -327,8 +327,10 @@ footer h2 {
         margin-left: auto;
         margin-right: auto;
         width: 80%;
+
+        font-family: Inter;
     }
-    
+
     .side-nav {
         border-right: 1px solid #dcdcdc;
         height: 100%;
@@ -587,6 +589,11 @@ body {
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+
+        body {
+            font-family: Inter;
+        }
+      
       .menu {
           display: none;
       }
