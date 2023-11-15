@@ -109,17 +109,17 @@ footer {
 
 @font-face {
     font-family: Inter;
-    src: url(../kevindinh.github.io/fonts/Inter-Regular.woff);
+    src: url(fonts/Inter-Regular.woff);
 }
 
 @font-face {
     font-family: Inter;
-    src: url(../kevindinh.github.io/fonts/Inter-Light.woff);
+    src: url(fonts/Inter-Light.woff);
     font-weight: lighter;
 }
 
 @font-face {
     font-family: Inter;
-    src: url(../kevindinh.github.io/fonts/Inter-Bold.woff);
+    src: url(fonts/Inter-Bold.woff);
     font-weight: bold;
 }
